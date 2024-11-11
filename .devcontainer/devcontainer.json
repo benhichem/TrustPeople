@@ -1,0 +1,16 @@
+{
+  "name": "{{param `github.owner`}}/{{param `github.repo`}}",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "adam-bender.commit-message-editor",
+        "mhutchie.git-graph",
+        "christian-kohler.path-intellisense"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+}

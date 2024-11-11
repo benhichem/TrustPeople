@@ -1,0 +1,9 @@
+procs:
+  dev:
+    shell: "npm run start:watch"
+    env:
+      NODE_ENV: dev
+  tests:
+    shell: "npm run test:watch"
+    env:
+      NODE_ENV: test
